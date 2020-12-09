@@ -14,6 +14,7 @@ public class MyReviewApplication implements WebMvcConfigurer {
 		registry.addViewController("/addReview").setViewName("review");
 	}
 	public static void main(String[] args) {
+		
 		SpringApplication.run(MyReviewApplication.class, args);
 	}
 
